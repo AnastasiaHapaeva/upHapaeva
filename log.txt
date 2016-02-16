@@ -1,0 +1,11 @@
+commit 640c31a1b6a9de1a6c274c796c699be263095a15
+Author: Хапаева Анастасия С <fpm.hapaeva@bsu>
+Date:   Tue Feb 9 11:07:54 2016 +0200
+
+    Add status.txt
+
+commit 9b847b6008a3510dd4e66246ea92aef768993978
+Author: Хапаева Анастасия С <fpm.hapaeva@bsu>
+Date:   Tue Feb 9 11:05:14 2016 +0200
+
+    Add .gitignore
