@@ -3,6 +3,8 @@ package Up;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.UUID;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by Анастасия on 15.02.2016.
@@ -42,19 +44,11 @@ public class Message {
     public String getMessage(){
         return this.message;
     }
-    public void setID(String id){
-        this.id = id;
+    public boolean sregax(String name, String name1) {
+        Pattern p = Pattern.compile(name);
+        Matcher m = p.matcher(name1);
+        return m.matches();
     }
-    public void setAuthor(String author){
-        this.author = author;
-    }
-    public void setData(long timestamp){
-        this.timestamp = timestamp;
-    }
-    public void setMessage(String message){
-        this.message = message;
-    }
-
     @Override
     public String toString(){
         Date time = new Date(this.timestamp);
