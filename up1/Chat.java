@@ -83,86 +83,57 @@ public class Chat {
 
     }
     public void search(String name) {
-        int a = 0;
-        while (a >= 0) {
-            if (chat.isEmpty()) {
-                System.out.println("Ошибка! Добавьте сообщения в чат!");
-                break;
+        int flag= 0;
+        for (int i = 0; i < chat.size(); i++) {
+            Message aChat = chat.get(i);
+            if (aChat.getAuthor().equals(name)) {
+                flag++;
+                System.out.println("Сообщение от данного автора:");
+                System.out.println(aChat);
             }
-            a--;
         }
-        if (a == -1) {
-            int n;
-            n = 0;
-            for (int i = 0; i < chat.size(); i++) {
-                Message aChat = chat.get(i);
-                if (aChat.getAuthor().equals(name)) {
-                    n++;
-                    System.out.println("Сообщение от данного автора:");
-                    System.out.println(aChat);
-                }
-
-            }
-            if (n == 0) {
-                System.out.println("Сообщений от данного автора в чате нет!");
-            }
+        if (flag == 0) {
+            System.out.println("Сообщений от данного автора в чате нет!");
         }
     }
     public void search1(String name) {
-        int a = 0;
-        while (a >= 0) {
-            if (chat.isEmpty()) {
-                System.out.println("Ошибка! Добавьте сообщения в чат!");
-                break;
+        int flag = 0;
+        for (Message aChat : chat) {
+            if (aChat.getAuthor().equals(name)) {
+                flag++;
+                System.out.println("Сообщение найденное по ключевому слову:");
+                System.out.println(aChat);
             }
-            a--;
-        }
-        if (a == -1) {
-            int n = 0;
-            for (Message aChat : chat) {
-                if (aChat.getAuthor().equals(name)) {
-                    n++;
-                    System.out.println("Сообщение найденное по ключевому слову:");
-                    System.out.println(aChat);
-                }
-                if(aChat.getMessage().contains(name)){
-                    n++;
-                    System.out.println("Сообщение найденное по ключевому слову:");
-                    System.out.println(aChat);
-                }
-            }
-            if (n == 0) {
-                System.out.println("Таких сообщений в чате нет!");
+            if(aChat.getMessage().contains(name)){
+                flag++;
+                System.out.println("Сообщение найденное по ключевому слову:");
+                System.out.println(aChat);
             }
         }
+        if (flag == 0) {
+            System.out.println("Таких сообщений в чате нет!");
+        }
+
     }
 
     public void searchRegax(String name) {
-        int a = 0;
-        while (a >= 0) {
-            if (chat.isEmpty()) {
-                System.out.println("Ошибка! Добавьте сообщения в чат!");
-                break;
-            }
-            a--;
-        }
-        if (a == -1) {
-            int n = 0;
-            for (Message aChat : chat) {
-                String name1 = aChat.getMessage();
-                String []mess= name1.split(" ");
-                for(int i=0;i<mess.length;i++) {
-                    if (aChat.sregax(name,mess[i] )) {
-                        System.out.println("Сообщение найденное по регулярному выражению:");
-                        System.out.println(aChat);
-                    }
+        int flag = 0;
+        for (Message aChat : chat) {
+            String name1 = aChat.getMessage();
+            String []mess= name1.split(" ");
+            for(int i=0;i<mess.length;i++) {
+                if (aChat.sregax(name,mess[i] )) {
+                    flag++;
+                    System.out.println("Сообщение найденное по регулярному выражению:");
+                    System.out.println(aChat);
                 }
             }
-            if (n == 0) {
-                System.out.println("Таких сообщений в чате нет!");
-            }
+        }
+        if (flag == 0) {
+            System.out.println("Таких сообщений в чате нет!");
         }
     }
+
 
 
 }
