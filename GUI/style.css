@@ -1,0 +1,159 @@
+.black{
+    color: darkred;
+    font-size: 200%;
+    /*font-family: Arial, Verdana, sans-serif;*/
+
+}
+.kvadrat {
+    height:580px;
+    width:1350px;
+    background-color: blanchedalmond;
+    border:1px;
+}
+.minikvadrat {
+
+    height: 500px;
+    width: 400px;
+    background-color: darkgray;
+    border: 2px ;
+    position: fixed;
+    top: 9%;
+    left: 30%;
+}
+.messagepole {
+
+    height: 34px;
+    width: 270px;
+    background-color: #e0e0e0;
+    border: 1px solid black;
+    position: fixed;
+    top: 80%;
+    left: 30.5%;
+    border-radius: 10px;
+}
+.send {
+
+    height: 34px;
+    width: 100px;
+    background-color: #e0e0e0;
+    border: 1px solid black;
+    position: fixed;
+    top: 80%;
+    left: 51%;
+    border-radius: 10px;
+}
+.oglavlenie {
+
+    height: 50px;
+    width: 400px;
+    background-color: #e298d8;
+    border: 1px  ;
+    position: fixed;
+    top: 6%;
+    left: 30%;
+}
+.messages{
+    height: 330px;
+    width: 380px;
+    background-color: #c2cec9;
+    border: 2px ;
+    position: fixed;
+    top: 15%;
+    left: 30.7%;
+
+}
+.chat{
+    height: 50px;
+    width: 60px;
+    background-color: #e298d8;
+    border: 2px ;
+    position: fixed;
+    top: 6%;
+    left: 30%;
+}
+.singIn{
+    height: 50px;
+    width: 82px;
+    background-color: #bd7eb4;
+    border: 2px ;
+    position: fixed;
+    top: 6%;
+    left: 53.5%;
+}
+.authorChat{
+    height: 50px;
+    width: 200px;
+    background-color: #d5dbee;
+    color: #a99fcc;
+    border: 2px ;
+    position: fixed;
+    top: 90%;
+    left: 85%;
+}
+.history{
+    height: 40px;
+    width: 40px;
+    background-color: #e298d8;
+    border: 1px ;
+    position: fixed;
+    top: 6.5%;
+    left: 50%;
+}
+.error{
+    height: 20px;
+    width: 20px;
+    background-color: #e0e0e0;
+    border: 1px solid black;
+    position: fixed;
+    top: 72%;
+    left: 32%;
+
+}
+.photo{
+    height: 40px;
+    width: 40px;
+    background-color: #d2d2d2;
+    border: 2px ;
+    position: fixed;
+    top: 15%;
+    left: 35%;
+    border-radius: 40px;
+}
+.yourmessage{
+    height: 40px;
+    width: 250px;
+    background-color: #d2d2d2;
+    border: 2px ;
+    position: fixed;
+    top: 15%;
+    left: 40%;
+    border-radius: 10px;
+}
+.photo1{
+    height: 40px;
+    width: 40px;
+    background-color: #d2d2d2;
+    border: 2px ;
+    position: fixed;
+    top: 25%;
+    left: 55%;
+    border-radius: 40px;
+}
+.yourmessage1{
+    height: 40px;
+    width: 250px;
+    background-color: #d2d2d2;
+    border: 2px ;
+    position: fixed;
+    top: 25%;
+    left: 35%;
+    border-radius: 10px;
+}
+.edit{
+    height: 20px;
+    width:20px;
+    position: fixed;
+    top: 27%;
+    left: 32%;
+
+}
