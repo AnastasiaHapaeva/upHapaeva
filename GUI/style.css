@@ -1,3 +1,7 @@
+body{
+    background-size:cover;
+}
+
 .black{
     color: darkred;
     font-size: 200%;
@@ -5,15 +9,15 @@
 
 }
 .kvadrat {
-    height:580px;
-    width:1350px;
+    height:50%;
+    width:100%;
     background-color: blanchedalmond;
     border:1px;
 }
 .minikvadrat {
 
-    height: 500px;
-    width: 400px;
+    height: 80%;
+    width: 30%;
     background-color: darkgray;
     border: 2px ;
     position: fixed;
@@ -23,33 +27,33 @@
 .messagepole {
 
     height: 34px;
-    width: 270px;
+    width: 17%;
     background-color: #e0e0e0;
     border: 1px solid black;
     position: fixed;
-    top: 80%;
+    top: 82%;
     left: 30.5%;
     border-radius: 10px;
 }
 .send {
 
     height: 34px;
-    width: 100px;
+    width: 8%;
     background-color: #e0e0e0;
     border: 1px solid black;
     position: fixed;
-    top: 80%;
+    top: 82%;
     left: 51%;
     border-radius: 10px;
 }
 .oglavlenie {
 
     height: 50px;
-    width: 400px;
+    width: 30%;
     background-color: #e298d8;
     border: 1px  ;
     position: fixed;
-    top: 6%;
+    top: 8%;
     left: 30%;
 }
 .messages{
@@ -68,16 +72,16 @@
     background-color: #e298d8;
     border: 2px ;
     position: fixed;
-    top: 6%;
+    top: 8%;
     left: 30%;
 }
-.singIn{
+.signIn{
     height: 50px;
-    width: 82px;
+    width: 6.5%;
     background-color: #bd7eb4;
     border: 2px ;
     position: fixed;
-    top: 6%;
+    top: 8%;
     left: 53.5%;
 }
 .authorChat{
@@ -96,8 +100,8 @@
     background-color: #e298d8;
     border: 1px ;
     position: fixed;
-    top: 6.5%;
-    left: 50%;
+    top: 8%;
+    left: 49%;
 }
 .error{
     height: 20px;
@@ -105,7 +109,7 @@
     background-color: #e0e0e0;
     border: 1px solid black;
     position: fixed;
-    top: 72%;
+    top: 75%;
     left: 32%;
 
 }
@@ -115,17 +119,17 @@
     background-color: #d2d2d2;
     border: 2px ;
     position: fixed;
-    top: 15%;
+    top: 17%;
     left: 35%;
     border-radius: 40px;
 }
 .yourmessage{
     height: 40px;
-    width: 250px;
+    width: 17%;
     background-color: #d2d2d2;
     border: 2px ;
     position: fixed;
-    top: 15%;
+    top: 17%;
     left: 40%;
     border-radius: 10px;
 }
@@ -141,17 +145,25 @@
 }
 .yourmessage1{
     height: 40px;
-    width: 250px;
+    width: 17%;
     background-color: #d2d2d2;
     border: 2px ;
     position: fixed;
     top: 25%;
-    left: 35%;
+    left: 38%;
     border-radius: 10px;
 }
 .edit{
     height: 20px;
-    width:20px;
+    width:12%;
+    position: fixed;
+    top: 27%;
+    left: 35%;
+
+}
+.delete{
+    height: 20px;
+    width:12%;
     position: fixed;
     top: 27%;
     left: 32%;
