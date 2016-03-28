@@ -3,27 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
     <title>Мини-чат</title>
 
 </head>
-<body>
+<body onload="run()">
  <img src="img/a.jpg" alt="картинка" height="1600px"  width="100%">
+ <div class="main">
+
     <div class="minikvadrat">
-        <!--<div class="messages">-->
         <div class="oglavlenie"></div>
             <div class="chat"><h2><center>Chat</center></h2></div>
-                <div class="signIn"><h3><center>Sign in</center></h3></div>
-        <div class="history"><a href ="#" title = "Show history"><img src="img/history.png" alt="картинка" height="40" width="40"><h3><center></center></h3></a></div>
-                        <input class="messagepole" type="text" >
-                            <input class="send" type="submit" value="send">
-                                <div class="yourmessage">Hello! </div>
-                                    <div class="photo"> <img src="img/photo.png" alt="картинка" height="40" width="40"> </div>
-        <div class="yourmessage1">Hello! </div>
-        <div class="photo1"> <img src="img/photo1.png" alt="картинка" height="40" width="40"> </div>
-        <div class="error"> <img src="img/error.jpg" alt="картинка" height="20" width="20"> Error!</div>
-        <div class="edit"> <img src="img/edit.png" alt="картинка" height="30" width="15%"> </div>
-        <div class="delete"> <img src="img/delet.jpg" alt="картинка" height="30" width="15%"> </div>
+                <div class="singIn"><h3><center>Sing in</center></h3></div>
 
+        <div class="user">
+
+                        <input class="userName" id="nick" placeholder="Nickname" value="User1">
+                            <button class="changenick" type="button">Change</button>
+                            </div>
+        <div class="middle" name="">
+            <ul class="history" id="list">
+
+            </ul>
+                 <textarea name="messagepole" type="text" id="inputmessage" placeholder="Type your message">   </textarea>
+                       <button class="send" id="send" > Send</button>
+
+       </div>
+
+
+    </div>
     </div>
     <div class="author">Anastasia Hapaeva BSU FAMCS 2016</div>
 
