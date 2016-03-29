@@ -24,26 +24,15 @@ body{
     top: 9%;
     left: 30%;
 }
-.messagepole {
-
-    height: 34px;
-    width: 17%;
-    background-color: #e0e0e0;
-    border: 1px solid black;
-    position: fixed;
-    top: 82%;
-    left: 30.5%;
-    border-radius: 10px;
-}
 .send {
 
     height: 34px;
-    width: 8%;
+    width: 5%;
     background-color: #e0e0e0;
     border: 1px solid black;
     position: fixed;
     top: 82%;
-    left: 51%;
+    left: 54%;
     border-radius: 10px;
 }
 .oglavlenie {
@@ -75,7 +64,7 @@ body{
     top: 8%;
     left: 30%;
 }
-.signIn{
+.singIn{
     height: 50px;
     width: 6.5%;
     background-color: #bd7eb4;
@@ -100,8 +89,8 @@ body{
     background-color: #e298d8;
     border: 1px ;
     position: fixed;
-    top: 8%;
-    left: 49%;
+    top: 6%;
+    left: 47%;
 }
 .error{
     height: 20px;
@@ -168,4 +157,169 @@ body{
     top: 27%;
     left: 32%;
 
+}
+.author1 {
+    height: 23px;
+    width: 12%;
+    position: fixed;
+    top: 82%;
+    left: 31%;
+}
+.userName{
+    height: 24px;
+    width: 5%;
+    background-color: darkgray;
+    position: fixed;
+    top: 82%;
+    left:36%;
+}
+textarea
+{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 32px;
+    width: 12%;
+    padding: 5px;
+    background-color: #e0e0e0;
+    color: black;
+    position: fixed;
+    top: 82%;
+    left:42%;
+    border-radius: 10px;
+}
+
+.changenick
+{
+    height: 32px;;
+    width: 5%;
+    text-align: center;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    cursor: pointer;
+    position: fixed;
+    top: 82%;
+    left:30.5%;
+}
+li
+{
+    list-style: none;
+}
+.delete {
+    width: 22px;
+    height: 22px;
+    background: url("img/delet.jpg");
+    background-size: 80%;
+    border-radius: 5px ;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    float: left;
+    margin: 1px;
+}
+
+.history
+{
+    position: fixed;
+    top: 15%;
+    left:31.5%;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    background-color: lightgray;
+    opacity: 0.7;
+    width: 26.5%;
+    height: 400px;
+    min-height: 250px;
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+.redactInput
+{
+    position: relative;
+    border-radius: 10px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 15px;
+    overflow: auto;
+    background-color: #0b9bff;
+    color: black;
+}
+.redact
+{
+    width: 22px;
+    height: 22px;
+    background: url("img/edit.png") ;
+    background-size: 100%;
+    border-radius: 5px ;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    float: left;
+    margin: 1px;
+}
+.user1
+{
+    margin-top: 3px;
+    text-align: left;
+    padding-left: 10px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 15px;
+    color: black;
+}
+
+.user0
+{
+    margin-top: 3px;
+    text-align: right;
+    padding-right: 10px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 15px;
+    color: black;
+}
+
+.myMessage
+{
+    position: relative;
+    text-align: right;
+    padding: 10px;
+    border: 3px dotted black;
+    border-radius: 10px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 15px;
+    margin: 10px 10px 10px 50%;
+    max-width: 30%;
+    overflow: auto;
+    background-color: lightgray;
+    color: black;
+}
+
+.cancelOfRedact
+{
+    width: 22px;
+    height: 22px;
+    background: url("http://www.lepkomplekt.ru/static/images/fck/image/galochka.png") no-repeat center white ;
+    background-size: 100%;
+    border-radius: 5px ;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    float: right;
+    margin: 1px;
+}
+
+.userMessage
+{
+
+    position: relative;
+    text-align: left;
+    padding: 10px;
+    border: 3px dotted black;
+    border-radius: 10px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 15px;
+    margin: 10px 50% 10px 10px;
+    max-width: 50%;
+    overflow: auto;
+    background-color: #3addff;
+    color: black;
 }
