@@ -1,0 +1,11 @@
+GET http://195.50.18.215:999/chat?token=TN27EN HTTP/1.1
+User-Agent: Composer
+Host: 195.50.18.215:999
+
+
+HTTP/1.1 200 OK
+Date: Fri, 13 May 2016 16:39:07 GMT
+Access-control-allow-origin: *
+Content-length: 32
+
+{"messages":[],"token":"TN27EN"}
